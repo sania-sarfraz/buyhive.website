@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="web.css">
+    <title>BuyHive</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-white">
+        <div class="container-fluid">
+            <!--navbar-->
+            <a class="navbar-brand" href="#"><img
+                    src="https://th.bing.com/th/id/OIP.CbpoxvrWWA0fo_0mixhG1AHaCg?w=342&h=118&c=7&r=0&o=5&pid=1.7"
+                    width="150px" height="80px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item ms-5">
+                        <a class="nav-link active" aria-current="page" href="#">Expert Sourcing</a>
+                    </li>
+                    <li class="nav-item ms-4">
+                        <a class="nav-link active" href="#">Contract Manufacturing</a>
+                    </li>
+                    <li class="nav-item ms-4">
+                        <a class="nav-link active" href="#">Buy</a>
+                    </li>
+                    <li class="nav-item ms-4">
+                        <a class="nav-link active" href="#">Financing</a>
+                    </li>
+                    <li class="nav-item dropdown ms-4">
+                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            About Us
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Our Story</a></li>
+                            <li><a class="dropdown-item" href="#">How to buy</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex " role="search">
+                    <button type="button" class="btn btn-outline-primary rounded-pill ms-2">Register</button>
+                    <button class="btn btn-outline-success rounded-pill ms-2" type="submit">Sign In</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="text text-center d-flex m-4 ms-5">
+        <!--left side column-->
+        <p class="text text-center">Product</p>
+        <p class="text text-muted text-center"> (524 Products)</p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 d-flex left-col border">
+                <!--price-->
+                <div class="price">
+                    <p class="text mt-4 fw-bold">Price</p>
+                    <div class="price d-flex">
+                        <input type="number" class="form-control rounded-pill" id="exampleFormControlInput"
+                            placeholder="0">
+                        <p>___</p>
+                        <input type="number" class="form-control rounded-pill" id="exampleFormControlInput"
+                            placeholder="69">
+                    </div>
+                    <div class="price mt-3">
+                        <p class="text  mt-3 fw-bold">MOQ</p>
+                        <input type="number" class="form-control rounded-pill text-muted text-center"
+                            id="exampleFormControlInput" placeholder="less than">
+                    </div>
+                    <!--product-->
+                    <div class="price mt-3">
+                        <p class="text  mt-3 fw-bold">Product Certification</p>
+                        <input type="number" class="form-control rounded-pill text-muted text-center"
+                            id="exampleFormControlInput" placeholder="Product Certification....">
+                    </div>
+                    <div class="form-check mt-5">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            ASTM
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            CE
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Certified of compiler..
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Certified of comfermity
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            EPA
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            EN
+                        </label>
+                    </div>
+                    <a href="#" class="anchr">show All (15)</a>
+                    <!--suplier certification-->
+                    <div class="price mt-3">
+                        <p class="text  mt-3 fw-bold">Supplier Certification</p>
+                        <input type="number" class="form-control rounded-pill text-muted text-center"
+                            id="exampleFormControlInput" placeholder="Supplier Certification....">
+                    </div>
+                    <div class="form-check mt-5">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            DUNS
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            DRS
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            GMP
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            ISO 9001
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            ISO 96
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            ISO 9001:2015
+                        </label>
+                    </div>
+                    <!--stock availbale-->
+                    <p class="text fw-bold mt-4">Stock Availabilty</p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            In USA
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <!--Right side cards-->
+
+            <div class="col-md-8">
+                <div class="container mt-5 rightcolum">
+                    <div class="row row-col-md-3 ">
+                        <!--1st card-->
+                        <div class="col-lg-4 col-md-6 col-12 card-row">
+                            <div class="card border-0">
+                                <img src="https://tbh-production.s3.ap-southeast-1.amazonaws.com/Product/2034888965/Images/16066601421950233806.png"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body ">
+
+                                    <p class="card-text">Rolhei 75% Ethanol W...</p>
+                                    <p class="text-muted">MOQ: 1,512 Pieces</p>
+                                    <p class="fw-bold">$ 1.40 / Piece</p>
+                                    <div class="btn btn-outline-success fw-bold ">
+                                        Add TO Cart
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--2nd card-->
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="card border-0 d-flex justify-content-center align-items-center">
+                                <img src="https://tbh-production.s3.ap-southeast-1.amazonaws.com/Product/77970949/Images/16188995271096357559.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body ">
+
+                                    <p class="card-text">ARCTICA Washable </p>
+                                    <p class="text-muted">MOQ: 500 Pieces</p>
+                                    <p class="fw-bold">$ 11.40 / Piece</p>
+                                    <div class="btn btn-outline-success fw-bold ">
+                                        Add TO Cart
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--3rd card-->
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="card border-0 d-flex justify-content-center align-items-center">
+                                <img src="https://tbh-production.s3.ap-southeast-1.amazonaws.com/Product/1041568960/Images/16066628121301820143.png"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body ">
+
+                                    <p class="card-text"> ECO Biodegradable W</p>
+                                    <p class="text-muted">MOQ: 9600,512 Pieces</p>
+                                    <p class="fw-bold">$ 1.40 -$ 0,90 / Piece</p>
+                                    <div class="btn btn-outline-success fw-bold ">
+                                        Add TO Cart
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="card border-0">
+                                <img src="https://tbh-production.s3.ap-southeast-1.amazonaws.com/Product/1165021632/Images/16188992531189254654.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body ">
+
+                                    <p class="card-text">Rolhei 75% Ethanol W...</p>
+                                    <p class="text-muted">MOQ: 1,512 Pieces</p>
+                                    <p class="fw-bold">$ 1.40 / Piece</p>
+                                    <div class="btn btn-outline-success fw-bold ">
+                                        Add TO Cart
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--4-->
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="card border-0 d-flex justify-content-center align-items-center">
+                                <img src="https://tbh-production.s3.ap-southeast-1.amazonaws.com/Product/2124433551/Images/16066651181992181153.png"
+                                    class="card-img-top" alt="..." style="height: 220px;">
+                                <div class="card-body ">
+
+                                    <p class="card-text">ARCTICA Washable </p>
+                                    <p class="text-muted">MOQ: 500 Pieces</p>
+                                    <p class="fw-bold">$ 11.40 / Piece</p>
+                                    <div class="btn btn-outline-success fw-bold ">
+                                        Add TO Cart
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--5-->
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="card border-0 d-flex justify-content-center align-items-center">
+                                <img src="https://tbh-production.s3.ap-southeast-1.amazonaws.com/Product/169637263/Images/1618198984384152277.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body ">
+
+                                    <p class="card-text"> ECO Biodegradable W</p>
+                                    <p class="text-muted">MOQ: 9600,512 Pieces</p>
+                                    <p class="fw-bold">$ 1.40 -$ 0,90 / Piece</p>
+                                    <div class="btn btn-outline-success fw-bold ">
+                                        Add TO Cart
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--6-->
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="card border-0"
+                                style="display: flex;justify-content: center;align-items: center;">
+                                <img src="https://tbh-production.s3.ap-southeast-1.amazonaws.com/Product/1062202442/Images/16067031431828326643.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body ">
+
+                                    <p class="card-text">Rolhei 75% Ethanol W...</p>
+                                    <p class="text-muted">MOQ: 1,512 Pieces</p>
+                                    <p class="fw-bold">$ 1.40 / Piece</p>
+                                    <div class="btn btn-outline-success fw-bold ">
+                                        Add TO Cart
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--7-->
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="card border-0 d-flex justify-content-center align-items-center">
+                                <img src="https://tbh-production.s3.ap-southeast-1.amazonaws.com/Product/1252763978/Images/16257460221368195464.jpg"
+                                    class="card-img-top" alt="..." style="height: 220px;">
+                                <div class="card-body ">
+
+                                    <p class="card-text">ARCTICA Washable </p>
+                                    <p class="text-muted">MOQ: 500 Pieces</p>
+                                    <p class="fw-bold">$ 11.40 / Piece</p>
+                                    <div class="btn btn-outline-success fw-bold ">
+                                        Add TO Cart
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--8-->
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="card border-0 d-flex justify-content-center align-items-center">
+                                <img src="https://tbh-production.s3.ap-southeast-1.amazonaws.com/Product/2082144273/Images/16067070521180701606.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body ">
+
+                                    <p class="card-text"> ECO Biodegradable W</p>
+                                    <p class="text-muted">MOQ: 9600,512 Pieces</p>
+                                    <p class="fw-bold">$ 1.40 -$ 0,90 / Piece</p>
+                                    <div class="btn btn-outline-success fw-bold ">
+                                        Add TO Cart
+                                        <img class="img-fluid ms-2" src="assests/about/icons8-plus-16.png " alt="">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--9-->
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="card border-0 d-flex justify-content-center align-items-center">
+                                <img src="https://tbh-production.s3.ap-southeast-1.amazonaws.com/Product/192335121/Images/16200162821635544309.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body ">
+
+                                    <p class="card-text"> ECO Biodegradable W</p>
+                                    <p class="text-muted">MOQ: 9600,512 Pieces</p>
+                                    <p class="fw-bold">$ 1.40 -$ 0,90 / Piece</p>
+                                    <div class="btn btn-outline-success fw-bold ">
+                                        Add TO Cart
+                                        <img class="img-fluid ms-2" src="assests/about/icons8-plus-16.png " alt="">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--10-->
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="card border-0 d-flex justify-content-center align-items-center">
+                                <img src="https://tbh-production.s3.ap-southeast-1.amazonaws.com/Product/1208115420/Images/16197288961092772393.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body ">
+
+                                    <p class="card-text"> ECO Biodegradable W</p>
+                                    <p class="text-muted">MOQ: 9600,512 Pieces</p>
+                                    <p class="fw-bold">$ 1.40 -$ 0,90 / Piece</p>
+                                    <div class="btn btn-outline-success fw-bold ">
+                                        Add TO Cart
+                                        <img class="img-fluid ms-2" src="assests/about/icons8-plus-16.png " alt="">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--11-->
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="card border-0 d-flex justify-content-center align-items-center">
+                                <img src="https://tbh-production.s3.ap-southeast-1.amazonaws.com/Product/145327259/Images/1619403760501756204.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body ">
+
+                                    <p class="card-text"> ECO Biodegradable W</p>
+                                    <p class="text-muted">MOQ: 9600,512 Pieces</p>
+                                    <p class="fw-bold">$ 1.40 -$ 0,90 / Piece</p>
+                                    <div class="btn btn-outline-success fw-bold ">
+                                        Add TO Cart
+                                        <img class="img-fluid ms-2" src="assests/about/icons8-plus-16.png " alt="">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--12-->
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="card border-0 d-flex justify-content-center align-items-center">
+                                <img src="https://tbh-production.s3.ap-southeast-1.amazonaws.com/Product/572093286/Images/1606791126532888161.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body ">
+
+                                    <p class="card-text"> ECO Biodegradable W</p>
+                                    <p class="text-muted">MOQ: 9600,512 Pieces</p>
+                                    <p class="fw-bold">$ 1.40 -$ 0,90 / Piece</p>
+                                    <div class="btn btn-outline-success fw-bold ">
+                                        Add TO Cart
+                                        <img class="img-fluid ms-2" src="assests/about/icons8-plus-16.png " alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--13-->
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="card border-0 d-flex justify-content-center align-items-center">
+                                <img src="https://tbh-production.s3.ap-southeast-1.amazonaws.com/Product/1232418918/Images/1619422970550436904.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body ">
+
+                                    <p class="card-text"> ECO Biodegradable W</p>
+                                    <p class="text-muted">MOQ: 9600,512 Pieces</p>
+                                    <p class="fw-bold">$ 1.40 -$ 0,90 / Piece</p>
+                                    <div class="btn btn-outline-success fw-bold ">
+                                        Add TO Cart
+                                        <img class="img-fluid ms-2" src="assests/about/icons8-plus-16.png " alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--14-->
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="card border-0 d-flex justify-content-center align-items-center">
+                                <img src="https://tbh-production.s3.ap-southeast-1.amazonaws.com/Product/1654953773/Images/1606793463688587430.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body ">
+
+                                    <p class="card-text"> ECO Biodegradable W</p>
+                                    <p class="text-muted">MOQ: 9600,512 Pieces</p>
+                                    <p class="fw-bold">$ 1.40 -$ 0,90 / Piece</p>
+                                    <div class="btn btn-outline-success fw-bold ">
+                                        Add TO Cart
+                                        <img class="img-fluid ms-2" src="assests/about/icons8-plus-16.png " alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--footer -->
+            <div class="container bg-grey">
+                <div class="row mt-5 bg-body-tertiary p-5">
+                    <div class="col-sm-4">
+                        <a class="navbar-brand" href="#"><img
+                                src="https://th.bing.com/th/id/OIP.CbpoxvrWWA0fo_0mixhG1AHaCg?w=342&h=118&c=7&r=0&o=5&pid=1.7"
+                                width="150px" height="80px"></a><br>
+                        <p class="text text-muted mt-4">Connecting buyers and manufacturers using the<br> world’s best
+                            sourcing experts & technology built<br> by buyers, for buyers.</p><br><br>
+                        <p class="text fw-bold">Sign Up to Our Newsletter</p>
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email*</label><br>
+                                <input type="text" style="border-radius:5px;">
+                            </div>
+                        </form>
+                        <button type="button" class="btn btn-info text-white">Submit</button>
+                    </div>
+                    <!--2nd col-->
+                    <div class="col">
+                        <p class="text text-muted fw-bold">About Us</p>
+                        <p class="text-muted"> Our Story<br>
+                            How to Buy<br>
+                            Our Partners<br>
+                            Contact Us<br>
+                            Careers<br>
+                            Terms of Use<br>
+                            Privacy Policy</p>
+                    </div>
+                    <div class="col">
+                        <p class="text fw-bold text-muted">Our Services</p>
+                        <p class="text-muted">
+                        Expert Sourcing
+                        Contract Manufacturing
+                        Buy
+                        Financing
+                        </p>
+                    </div>
+                    <div class="col">
+                        <p class="text fw-bold text-muted"> Account</p>
+                       <p class="text text-muted">
+                        Sign In<br>
+                        Register to Buy<br>
+                        My Profile<br>
+                        My Orders<br>
+                        Register to Sell<br>
+                        Become a Sourcing Expert</p>
+                    </div>
+                    <div class="col">
+                        <p class="text fw-bold text-muted"> Our Locations</p>
+                       <p class="text-muted">
+                        BuyHive Limited<br><br>
+                        
+                        Dragon Industrial Bldg.<br>
+                        Unit 8B, 93 King Lam St.<br>
+                        Cheung Sha Wan,<br>
+                        Kowloon, Hong Kong<br><br>
+                        
+                        BuyHive USA Inc.<br><br>
+                        
+                        4730 South Fort Apache Rd.<br>
+                        Suite 300<br>
+                        Las Vegas, NV 89147<br>
+                        USA</p>
+                    </div>
+                </div>
+            </div>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+                crossorigin="anonymous"></script>
+</body>
+
+</html>
